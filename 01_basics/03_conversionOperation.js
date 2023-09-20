@@ -19,3 +19,8 @@ console.log(tempIsLogged);
 // false => 0
 // "" => false
 // " " => true
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
