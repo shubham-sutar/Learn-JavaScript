@@ -23,4 +23,4 @@ console.log(tempIsLogged);
 console.log("1" + 2);
 console.log(1 + "2");
 console.log("1" + 2 + 2);
-console.log(1 + 2 + "2");
+console.log(1 + 2 + "2"); 
