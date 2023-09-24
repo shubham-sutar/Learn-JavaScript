@@ -18,7 +18,12 @@ console.log(typeof JsUser[mySym]);
 
 JsUser.email = "shubham@gmail.com"; //chng email
 console.log(JsUser['email']); //accessing
-Object.freeze(JsUser); // once freeze cannot change obj
+//Object.freeze(JsUser); // once freeze cannot change obj
 
 JsUser.location = "pune";
 console.log(JsUser['location']);
+
+JsUser.greeting = function(){
+    console.log(`hello user,${this.fname}.`);
+}
+console.log(JsUser.greeting());
