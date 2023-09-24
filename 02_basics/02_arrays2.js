@@ -10,3 +10,10 @@ let dc_heros = ['flash','batman','superman'];
 
 const newComic = [...marvel_heros, ...dc_heros];
 console.log(newComic); 
+
+const another_Array = [1, 2, 3, ["shubham","sayali"], 6,['x', 'y', 'z',[0,900]]];
+let new_one_arr = another_Array.flat(Infinity);
+console.log(new_one_arr);
+
+console.log(Array.isArray("shubham")); //false asking array or not
+console.log(Array.from("shubham")); //converting to array
