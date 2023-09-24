@@ -25,3 +25,14 @@
  }
 
 console.log(div(12,12));
+
+function loginUserMessage(username){
+    if(!username){
+        console.log("please enter username");
+        return
+    }
+    return `${username} just logged in`
+}
+
+let newUser = loginUserMessage("");
+console.log(newUser);
