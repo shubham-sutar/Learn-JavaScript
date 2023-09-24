@@ -16,4 +16,10 @@ let new_one_arr = another_Array.flat(Infinity);
 console.log(new_one_arr);
 
 console.log(Array.isArray("shubham")); //false asking array or not
-console.log(Array.from("shubham")); //converting to array
+console.log(Array.from("shubham")); //converting to array ['s', 'h', 'u', 'b', 'h', 'a', 'm']
+
+let score = 100;
+let wicket = 9;
+let runs = 250;
+
+console.log(Array.of(score,wicket,runs));
