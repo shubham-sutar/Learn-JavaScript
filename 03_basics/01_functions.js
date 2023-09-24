@@ -26,7 +26,7 @@
 
 console.log(div(12,12));
 
-function loginUserMessage(username){
+function loginUserMessage(username = "hey"){
     if(!username){
         console.log("please enter username");
         return
@@ -34,5 +34,5 @@ function loginUserMessage(username){
     return `${username} just logged in`
 }
 
-let newUser = loginUserMessage("");
+let newUser = loginUserMessage();
 console.log(newUser);
