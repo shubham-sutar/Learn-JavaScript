@@ -65,8 +65,8 @@ myUser({
 
 const myArray = [100, 200, 300, 400];
 
-function myNewFunction(){
-    return myArray[1]
+function myNewFunction(obj){
+    return obj[1];
 }
 
 console.log(myNewFunction(myArray));
