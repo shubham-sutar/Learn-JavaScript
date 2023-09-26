@@ -22,3 +22,18 @@ console.log(numOut);
 console.log(num6); // 50 accessible every where
 
 //=================================
+
+function one(){
+    console.log("function one");
+    let numOne = 12;
+    function two(){
+        console.log(numOne);
+        let numTwo = 24;
+    }
+
+    //console.log(numTwo); error out of scope
+    //console.log(numOne); // 12
+}
+
+one();
+
