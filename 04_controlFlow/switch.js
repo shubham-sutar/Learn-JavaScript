@@ -1,17 +1,21 @@
 // switch case
 
-const cards = 'masterCard';
+const cards = 'Maestro';
 
 switch (cards) {
     case 'rupay' :
-        console.log("NA");
+        console.log("Not Available");
         break;
 
     case 'visa' :
-        console.log("NA");
+        console.log("Not Available");
         break;
 
     case 'masterCard' :
+        console.log("Pay ur bill");
+        break;
+
+    case 'Maestro' :
         console.log("Pay ur bill");
         break;
 

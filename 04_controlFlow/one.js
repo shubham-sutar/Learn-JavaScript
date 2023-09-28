@@ -46,3 +46,13 @@ else if(run == 250){
 }
 
 //==================================
+
+// Nullish Coalescing Operator (??) : null undefined
+
+let val1;
+//val1 = 5 ?? 10; //op = 5
+//val1 = null ?? 10; //op = 10
+//val1 = undefined ?? 10; // 15
+val1 = null ?? 10 ?? 20; // 10
+
+console.log(val1);
