@@ -28,4 +28,21 @@ if(score > 100){
 
 // console.log(`User power = ${power}`); //error bcz out of scope.
 
+const num = 100;
+num > 50 ? console.log("true"): console.log("false"); //ternari operator.
+
+//==================================
+
+const run = 250;
+
+if(run>300){
+    console.log(`my run less than 300`);
+}
+else if(run>200){
+    console.log(`my runs greater than 200`);
+}
+else if(run == 250){
+    console.log(`my runs is 250`);
+}
+
 //==================================
