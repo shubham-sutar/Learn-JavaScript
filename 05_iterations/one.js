@@ -52,7 +52,15 @@ do{
 const numArr = [12, 23, 34, 45, 56];
 
 for (const num of numArr) {
-    console.log(num);
+    //console.log(num);
+}
+
+//Foreach loop
+
+let studArr = ['shubh','saya','aaru','turu'];
+studArr.forEach(studFunction);
+function studFunction(items){
+    console.log(items);
 }
 
 const greetings = "hello shubham";
@@ -69,3 +77,9 @@ map.set('Fr',"France")
 map.set('IN',"India")// not render
 
 console.log(map);
+
+//map print for of
+
+for (const [key,value] of map) {
+    console.log(key,':-',value);
+}
