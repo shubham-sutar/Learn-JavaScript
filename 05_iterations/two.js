@@ -27,3 +27,52 @@ console.log(map);
 for (const [key,value] of map) {
     console.log(key,":-",value);
 }
+
+//Foreach loop
+
+const logo = ['honda','hero','suzuki','BMD'];
+
+logo.forEach(myLogo);
+
+function myLogo(items){
+    console.log(items);
+}
+
+console.log(`second method`);
+logo.forEach(function(items){
+    console.log(items);
+})
+
+console.log(`thired method`);
+logo.forEach( (items) => {
+    console.log(items);
+} )
+
+console.log(`fourth method`);
+function printMe(items){
+    console.log(items);
+}
+
+logo.forEach(printMe);
+mobiles.forEach(printMe);
+
+logo.forEach( (items,index,arr) => {
+    console.log(items,index,arr);
+} )
+
+const lang = [{
+    languageName :'english',
+    fileName : 'en'
+},
+{
+    languageName :'Java',
+    fileName : 'java'
+},
+{
+    languageName :'python',
+    fileName : 'py'
+}];
+
+lang.forEach( (items) => {
+    console.log(items.languageName);
+})
